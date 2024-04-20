@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #ff0000;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 300px;
+}
+
+.search-bar button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.search-bar button img {
+    width: 20px;
+    height: 20px;
+}
+
+.user-profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.video {
+    flex: 0 0 calc(66.66% - 20px);
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.video img {
+    width: 100%;
+}
+
+.video-info {
+    padding: 10px;
+}
+
+aside {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.suggested-video {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
